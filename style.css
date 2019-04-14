@@ -28,6 +28,110 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+.menu{
+    color:  #25133d;
+    font-weight: 400;
+    padding: 0;
+    }
+
+.menu li {
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    padding-right: 50px;
+} 
+
+.bold{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.pozadi{
+    background-image: url(images/pozadi.jpg);
+    background-position: 100%;
+   color:white;
+    display: flex;
+    flex-direction: column;
+   padding-left: 30px;
+ height: 450px;
+   flex-wrap: wrap;
+    
+    
+}
+
+.nazev{
+    font-weight: 400; 
+    font-size: 80px;
+  align-self: flex-start;
+  flex-grow: 1;
+
+}
+.slogan{
+    font-size: 40px;
+    font-weight: 300;
+    flex-grow: 1;
+}
+
+.mobil{
+    display: flex;
+  align-self: flex-end;
+  flex-grow: 3;
+}
+
+.tlacitka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+.tlacitko1{
+    text-decoration: none;
+  background-color: #48418e;
+color: white;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid white;
+width: 180px;
+height: 50px;
+text-align: center;
+}
+.tlacitko2{
+    text-decoration: none;
+ color: white;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid white;
+width: 160px;
+height: 50px;
+text-align: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.letadlo, .chat, .mapa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+padding: 30px;
+}
+
+.nadpis{
+    color: #48418e;
+} 
+
+
+.pata{
+    color:white;
+    background-color:#48418e;
+    text-align: center;
+    height: 50px;
+   }
+
